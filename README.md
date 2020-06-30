@@ -26,8 +26,6 @@ this.$store.dispatch('userInfo')
 this.$store.state.userInfo
 ```
 
-[接口doc地址](https://docs.google.com/spreadsheets/d/1EgJ3Py2lcnYO12S24WYxBLm-qNJsojp3OKotDvc1kPw/edit#gid=1775478639)
-
 [uchart文档](http://doc.ucharts.cn/1073940)
 
 [访问地址](https://zhangli254804018.github.io/app-h5/unpackage/dist/build/h5/index.html#/)
