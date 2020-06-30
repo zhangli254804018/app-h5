@@ -1,0 +1,158 @@
+.user-container .user-head .head-banner {
+  position: relative;
+  height: 380rpx;
+}
+.user-container .user-head .head-banner .head-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.user-container .user-head .head-banner .head-cover .img-head-cover {
+  width: 750rpx;
+  height: 400rpx;
+}
+.user-container .user-head .head-banner .head-avator {
+  position: relative;
+  width: 156rpx;
+  height: 156rpx;
+  margin: auto;
+  padding-top: 40rpx;
+}
+.user-container .user-head .head-banner .head-avator .img-head-avator {
+  width: 156rpx;
+  height: 156rpx;
+}
+.user-container .user-head .head-banner .head-avator .avator-vip {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 145.8rpx;
+  height: 33.9rpx;
+  margin: auto;
+}
+.user-container .user-head .head-banner .head-avator .avator-vip .img-vip {
+  width: 145.8rpx;
+  height: 33.9rpx;
+  display: block;
+}
+.user-container .user-head .head-banner .head-avator .avator-vip .level {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 22rpx;
+  color: #999;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  line-height: 30rpx;
+}
+.user-container .user-head .head-banner .head-info {
+  position: relative;
+  text-align: center;
+  padding: 20rpx 20rpx;
+}
+.user-container .user-head .head-banner .head-info .nickname {
+  font-size: 32rpx;
+  color: #c6ac80;
+}
+.user-container .user-head .head-banner .head-info .level {
+  font-size: 24rpx;
+  color: rgba(77, 77, 77, 0.6);
+}
+.user-container .user-head .head-banner .head-info .invitecode {
+  font-size: 24rpx;
+  color: rgba(77, 77, 77, 0.6);
+}
+.user-container .user-head .head-content .head-process {
+  position: relative;
+}
+.user-container .user-head .head-content .head-process .process-desc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: absolute;
+  top: -40rpx;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+.user-container .user-head .head-content .head-process .process-desc .process-dot {
+  font-size: 22rpx;
+  color: #999;
+  text-align: center;
+  width: 180rpx;
+  position: absolute;
+}
+.user-container .user-head .head-content .head-process .process-desc .process-dot:nth-child(1) {
+  left: -10rpx;
+}
+.user-container .user-head .head-content .head-process .process-desc .process-dot:nth-child(2) {
+  left: 190rpx;
+}
+.user-container .user-head .head-content .head-process .process-desc .process-dot:nth-child(3) {
+  left: 390rpx;
+}
+.user-container .user-head .head-content .head-process .process-desc .process-dot:nth-child(4) {
+  left: 590rpx;
+}
+.user-container .user-head .head-content .head-process .process-level {
+  position: relative;
+}
+.user-container .user-head .head-content .head-process .process-level .img-process {
+  width: 100%;
+  height: 34rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+.user-container .user-head .head-content .head-process .process-level .img-process-bg {
+  width: 100%;
+  height: 34rpx;
+}
+.user-container .user-head .head-content .head-amount {
+  position: relative;
+}
+.user-container .user-head .head-content .head-amount .img-amount {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 250rpx;
+}
+.user-container .user-head .head-content .head-amount .amount-content {
+  position: relative;
+  text-align: center;
+  padding-top: 40rpx;
+}
+.user-container .user-head .head-content .head-amount .amount-content .title {
+  font-size: 26rpx;
+  color: rgba(49, 49, 49, 0.6);
+}
+.user-container .user-head .head-content .head-amount .amount-content .num {
+  font-size: 50rpx;
+  color: #fff;
+}
+.user-container .user-middle {
+  position: relative;
+}
+.user-container .user-middle .invite-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.user-container .user-middle .invite-btn .item-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.user-container .user-middle .invite-btn .item-btn .img-label {
+  width: 60rpx;
+  height: 60rpx;
+}
+

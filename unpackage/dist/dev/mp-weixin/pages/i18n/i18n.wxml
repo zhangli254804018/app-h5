@@ -1,0 +1,1 @@
+<view><block wx:for="{{langs}}" wx:for-item="lang" wx:for-index="key" wx:key="key"><view data-event-opts="{{[['tap',[['toggleLanguage',[key]]]]]}}" style="{{'color:'+(key===language?'#39c':'#333')+';'}}" bindtap="__e">{{lang}}</view></block><view>-------</view><view>{{lang.text}}</view></view>

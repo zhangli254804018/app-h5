@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "火炬",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "arcbar-chart": "/components/stan-ucharts/ArcbarChart",
+    "uni-swiper": "/components/main/uni-swiper",
+    "home-bar": "/components/main/home-bar"
+  }
+}

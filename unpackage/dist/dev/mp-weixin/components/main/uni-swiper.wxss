@@ -1,0 +1,91 @@
+.cardSwiper .swiper-item {
+  width: 86% !important;
+  overflow: initial;
+}
+.cardSwiper .swiper-item .swiper-item-view {
+  width: 100%;
+  display: block;
+  height: 100%;
+  border-radius: 10rpx;
+  -webkit-transform: scale(0.95, 0.85);
+          transform: scale(0.95, 0.85);
+  opacity: 0.7;
+  -webkit-transition: all 0.1s ease-in 0s;
+  transition: all 0.1s ease-in 0s;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-left: 8.1%;
+  background-color: #eee;
+}
+.cardSwiper .cur {
+  z-index: 99;
+}
+.cardSwiper .cur .swiper-item-view {
+  -webkit-transform: initial;
+          transform: initial;
+  opacity: 1;
+  -webkit-transition: all 0.1s ease-in 0s;
+  transition: all 0.1s ease-in 0s;
+}
+.swiper-item .swiper-item-view {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.swiperText {
+  position: absolute;
+  color: #ffffff;
+  z-index: 2;
+  border-radius: 4rpx;
+  padding: 0 4rpx;
+}
+.screen-swiper image {
+  width: 100%;
+}
+.screen-swiper video,
+.swiper-item video {
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+.swiperContent {
+  width: 100%;
+}
+.rankSwiper {
+  height: 322rpx !important;
+  margin: auto;
+  padding: 0 12rpx;
+}
+.rankSwiper .swiper-item {
+  width: 280rpx !important;
+  height: 322rpx !important;
+}
+.rankSwiper .swiper-item {
+  display: block;
+  -webkit-transition: all 0.1s ease-in 0s;
+  transition: all 0.1s ease-in 0s;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-left: 31.1%;
+}
+.rankSwiper .swiper-item .slot-item {
+  opacity: 1;
+  -webkit-transform: translate(-30rpx, 0) scale(0.85);
+          transform: translate(-30rpx, 0) scale(0.85);
+}
+.rankSwiper .swiper-item .slot-item.prev {
+  -webkit-transform: translate(30rpx, 0) scale(0.85);
+          transform: translate(30rpx, 0) scale(0.85);
+}
+.rankSwiper .cur.swiper-item {
+  -webkit-transform: initial;
+          transform: initial;
+  opacity: 1;
+  -webkit-transition: all 0.1s ease-in 0s;
+  transition: all 0.1s ease-in 0s;
+}
+.rankSwiper .cur.swiper-item .slot-item {
+  -webkit-transform: translate(0, 0) scale(1);
+          transform: translate(0, 0) scale(1);
+}
+

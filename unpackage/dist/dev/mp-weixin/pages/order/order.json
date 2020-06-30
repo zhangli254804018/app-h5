@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "记录",
+  "usingComponents": {
+    "home-bar": "/components/main/home-bar"
+  }
+}

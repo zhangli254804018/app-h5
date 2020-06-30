@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "home-bar": "/components/main/home-bar"
+  }
+}

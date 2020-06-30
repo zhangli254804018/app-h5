@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/login/login",
+    "pages/pwd/pwd",
+    "pages/user/user",
+    "pages/bind_account/bind_account",
+    "pages/credit/credit",
+    "pages/day_report/day_report",
+    "pages/forget/forget",
+    "pages/help/help",
+    "pages/income/income",
+    "pages/level_distribution/level_distribution",
+    "pages/invite/invite",
+    "pages/member/member",
+    "pages/money_shift/money_shift",
+    "pages/order/order",
+    "pages/profile/profile",
+    "pages/profile_detail/profile_detail",
+    "pages/publish/publish",
+    "pages/recharge/recharge",
+    "pages/reg/reg",
+    "pages/register/register",
+    "pages/task/task",
+    "pages/withdraw/withdraw",
+    "pages/test/test",
+    "pages/webview/webview",
+    "pages/i18n/i18n"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#0faeff",
+    "backgroundColor": "#fbf9fe"
+  },
+  "uniStatistics": {
+    "enable": false
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap87.json"
+}

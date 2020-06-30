@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "加入",
+  "usingComponents": {
+    "home-bar": "/components/main/home-bar"
+  }
+}

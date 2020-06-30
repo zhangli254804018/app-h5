@@ -1,0 +1,297 @@
+.content {
+  background-color: #fff;
+  padding-bottom: 100rpx;
+}
+.main-banner {
+  margin: 30rpx 0 0 0;
+}
+.main-maque {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 44rpx;
+  margin: 20rpx 20rpx 0;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 30rpx;
+  padding: 12rpx 20rpx;
+  box-shadow: 5rpx 5rpx 5rpx 5rpx #eee;
+}
+.main-maque .main-maque-icon {
+  width: 30rpx;
+  height: 30rpx;
+}
+.main-maque .main-maque-view {
+  display: block;
+  width: 100%;
+  height: 44rpx;
+  margin-left: 20rpx;
+}
+.main-maque .main-maque-view .maque-swiper {
+  display: block;
+  height: 44prx;
+  width: 100%;
+}
+.main-maque .main-maque-view .maque-swiper .swiper-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.main-maque .main-maque-view .maque-swiper .swiper-item .swiper-title {
+  color: #a2a2a2;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 28rpx;
+}
+.main-maque .main-maque-view .maque-swiper .swiper-item .swiper-hot {
+  margin-left: 12rpx;
+  margin-top: 8rpx;
+  width: 66rpx;
+  height: 30rpx;
+}
+.main-income {
+  margin: 20rpx 20rpx 0rpx 20rpx;
+  background-color: #fff;
+  padding: 12rpx;
+  border-radius: 12rpx;
+  box-shadow: 5rpx 5rpx 5rpx 5rpx #eee;
+}
+.main-income .icome-head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.main-income .icome-head .item-icon {
+  width: 30rpx;
+  height: 30rpx;
+}
+.main-income .icome-head .item-title {
+  font-size: 28rpx;
+  margin-left: 20rpx;
+  color: #c8a556;
+}
+.main-income .icome-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 20rpx;
+}
+.main-income .icome-content .item-cicle {
+  width: 200rpx;
+  height: 200rpx;
+  margin-right: 12rpx;
+}
+.main-income .icome-content .item-content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.main-income .icome-content .item-content .item-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: 100%;
+}
+.main-income .icome-content .item-content .item-list .icome-item {
+  font-size: 24rpx;
+  color: #373737;
+  width: 33%;
+  margin-bottom: 20rpx;
+}
+.main-income .icome-content .item-content .item-list .icome-item .item-ll {
+  color: #ff2a30;
+  font-size: 28rpx;
+}
+.main-task {
+  margin: 20rpx 20rpx 40rpx 20rpx;
+  box-shadow: 5rpx 5rpx 5rpx 5rpx #eee;
+  padding-bottom: 20rpx;
+}
+.main-task .task-container .task-list {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  background-color: #FFFFFF;
+  border-radius: 12rpx;
+  margin-bottom: 20rpx;
+}
+.main-task .task-container .task-list .task-media .item-logo {
+  position: absolute;
+  top: 20rpx;
+  left: -5rpx;
+}
+.main-task .task-container .task-list .task-media .item-logo .img-logo {
+  width: 96rpx;
+  height: 30rpx;
+}
+.main-task .task-container .task-list .task-media .item-platm {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-left: 12rpx;
+}
+.main-task .task-container .task-list .task-media .item-platm .img-platm {
+  width: 60rpx;
+  height: 60rpx;
+}
+.main-task .task-container .task-list .task-media .item-platm .platm-content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  margin-left: 12rpx;
+}
+.main-task .task-container .task-list .task-media .item-platm .platm-content .title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #000;
+}
+.main-task .task-container .task-list .task-media .item-platm .platm-content .desc {
+  font-size: 24rpx;
+  color: #a2a2a2;
+}
+.main-task .task-container .task-list .task-content {
+  width: 490rpx;
+}
+.main-task .task-container .task-list .task-content .content-platm .img-ads {
+  width: 490rpx;
+  height: 200rpx;
+  display: block;
+  background-color: #eee;
+}
+.main-task .task-more {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.main-task .task-more .task-more-btn {
+  font-size: 26rpx;
+  color: #373737;
+}
+.main-ranking {
+  position: relative;
+  height: 384rpx;
+  box-shadow: 5rpx 5rpx 5rpx 5rpx #eee;
+}
+.main-ranking .ranking-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.main-ranking .ranking-bg .img-ranking-bg {
+  width: 750rpx;
+  height: 384rpx;
+}
+.main-ranking .ranking-content {
+  width: 700rpx;
+  margin: auto;
+  overflow: auto;
+  white-space: nowrap;
+}
+.main-ranking .ranking-content .ranking_swiper {
+  width: 100%;
+  height: 322rpx;
+  margin: auto;
+}
+.main-ranking .ranking-content .ranking-item {
+  position: relative;
+  width: 262rpx;
+  height: 322rpx;
+  margin: auto;
+  display: inline-block;
+  -webkit-transform: scale(0.85);
+          transform: scale(0.85);
+  margin-right: -40rpx;
+}
+.main-ranking .ranking-content .ranking-item.cur {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  margin-right: -28rpx;
+  margin-left: 12rpx;
+}
+.main-ranking .ranking-content .ranking-item .item-bg {
+  width: 262rpx;
+  height: 322rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.main-ranking .ranking-content .ranking-item .item-bg .img-ranking-l {
+  width: 262rpx;
+  height: 322rpx;
+}
+.main-ranking .ranking-content .ranking-item .item-content {
+  position: relative;
+  padding-top: 40rpx;
+}
+.main-ranking .ranking-content .ranking-item .item-content .item-top {
+  position: absolute;
+  top: 0;
+  left: 44rpx;
+  z-index: 2;
+}
+.main-ranking .ranking-content .ranking-item .item-content .item-top .img-top {
+  width: 54rpx;
+  height: 46rpx;
+}
+.main-ranking .ranking-content .ranking-item .item-content .item-top .level {
+  position: absolute;
+  top: 5rpx;
+  left: 0;
+  font-size: 24rpx;
+  color: #fff;
+  width: 54rpx;
+  text-align: center;
+}
+.main-ranking .ranking-content .ranking-item .item-content .item-avator {
+  width: 90rpx;
+  height: 90rpx;
+  margin: auto;
+}
+.main-ranking .ranking-content .ranking-item .item-content .item-avator .img-avator {
+  width: 90rpx;
+  height: 90rpx;
+}
+.main-ranking .ranking-content .ranking-item .item-content .item-desc {
+  font-size: 24rpx;
+  text-align: center;
+  margin-top: 12rpx;
+}
+.main-ranking .ranking-content .ranking-item .item-content .item-desc .title {
+  font-size: 24rpx;
+  color: #373737;
+}
+.main-ranking .ranking-content .ranking-item .item-content .item-desc .task {
+  font-size: 24rpx;
+  color: #a2a2a2;
+}
+.main-ranking .ranking-content .ranking-item .item-content .item-desc .dot {
+  font-size: 24rpx;
+  color: #bfa56d;
+}
+.main-ranking .ranking-content .ranking-item .item-content .item-desc .price {
+  font-size: 28rpx;
+  color: #bfa56d;
+}
+
