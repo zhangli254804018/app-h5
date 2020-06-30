@@ -1,0 +1,332 @@
+$themeColor:rgb(200, 165, 86);
+$themeRedColor:rgb(255, 42, 48);
+$themeBlackColor:rgb(55, 55, 55);
+$themeGreyColor:#a2a2a2;
+$themeGoldColor:rgb(191, 165, 109);
+
+.content {
+	background-color: #fff;
+	padding-bottom: 100rpx;
+}
+
+//banner
+.main-banner {
+	margin: 30rpx 0 0 0;
+}
+
+//跑马灯
+.main-maque {
+	display: flex;
+	align-items: center;
+	height: 44rpx;
+	margin: 20rpx 20rpx 0;
+	overflow: hidden;
+	background-color: #fff;
+	border-radius: 30rpx;
+	padding: 12rpx 20rpx;
+	box-shadow: 5rpx 5rpx 5rpx 5rpx #eee;
+	.main-maque-icon {
+		width: 30rpx;
+		height: 30rpx;
+	}
+
+	.main-maque-view {
+		display: block;
+		width: 100%;
+		height: 44rpx;
+		margin-left: 20rpx;
+
+		.maque-swiper {
+			display: block;
+			height: 44prx;
+			width: 100%;
+
+			.swiper-item {
+				display: flex;
+
+				.swiper-title {
+					color: $themeGreyColor;
+					flex: 1;
+					overflow: hidden;
+					white-space: nowrap;
+					text-overflow: ellipsis;
+					font-size: 28rpx;
+				}
+
+				.swiper-hot {
+					margin-left: 12rpx;
+					margin-top: 8rpx;
+					width: 66rpx;
+					height: 30rpx;
+				}
+			}
+		}
+	}
+}
+
+//收益
+.main-income {
+	margin: 20rpx 20rpx 0rpx 20rpx;
+	background-color: #fff;
+	padding: 12rpx;
+	border-radius: 12rpx;
+	box-shadow: 5rpx 5rpx 5rpx 5rpx #eee;
+
+	.icome-head {
+		display: flex;
+		align-items: center;
+
+		.item-icon {
+			width: 30rpx;
+			height: 30rpx;
+		}
+
+		.item-title {
+			font-size: 28rpx;
+			margin-left: 20rpx;
+			color: $themeColor;
+		}
+	}
+
+	.icome-content {
+		display: flex;
+		margin-top: 20rpx;
+
+		.item-cicle {
+			width: 200rpx;
+			height: 200rpx;
+			margin-right: 12rpx;
+		}
+
+		.item-content {
+			flex: 1;
+
+			.item-list {
+				display: flex;
+				flex-wrap: wrap;
+				width: 100%;
+
+				.icome-item {
+					font-size: 24rpx;
+					color: $themeBlackColor;
+					width: 33%;
+					margin-bottom: 20rpx;
+
+					.item-ll {
+						color: $themeRedColor;
+						font-size: 28rpx;
+					}
+				}
+			}
+		}
+	}
+}
+
+//任务展示
+.main-task {
+	margin: 20rpx 20rpx 40rpx 20rpx;
+	box-shadow: 5rpx 5rpx 5rpx 5rpx #eee;
+	padding-bottom: 20rpx;
+	.task-container {
+
+		.task-list {
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			background-color: #FFFFFF;
+			border-radius: 12rpx;
+			margin-bottom: 20rpx;
+
+			.task-media {
+				// width: 220rpx;
+
+				.item-logo {
+					position: absolute;
+					top: 20rpx;
+					left: -5rpx;
+
+					.img-logo {
+						width: 96rpx;
+						height: 30rpx;
+					}
+				}
+
+				.item-platm {
+					display: flex;
+					margin-left: 12rpx;
+
+					.img-platm {
+						width: 60rpx;
+						height: 60rpx;						
+					}
+
+					.platm-content {
+						flex: 1;
+						margin-left: 12rpx;
+
+						.title {
+							font-size: 32rpx;
+							font-weight: bold;
+							color: #000;
+						}
+
+						.desc {
+							font-size: 24rpx;
+							color: $themeGreyColor;
+						}
+					}
+				}
+			}
+
+			.task-content {
+				width: 490rpx;
+
+				.content-platm {
+					.img-ads {
+						width: 490rpx;
+						height: 200rpx;
+						display: block;
+						background-color: #eee;
+					}
+				}
+			}
+		}
+	}
+
+	.task-more {
+		display: flex;
+		justify-content: flex-end;
+
+		.task-more-btn {
+			font-size: 26rpx;
+			color: $themeBlackColor;
+		}
+	}
+}
+
+//榜单列表
+.main-ranking {
+	position: relative;
+	height: 384rpx;
+	box-shadow: 5rpx 5rpx 5rpx 5rpx #eee;
+
+	.ranking-bg {
+		position: absolute;
+		left: 0;
+		top: 0;
+
+		.img-ranking-bg {
+			width: 750rpx;
+			height: 384rpx;
+		}
+	}
+
+	.ranking-content {
+		width: 700rpx;
+		margin: auto;
+		overflow: auto;
+		white-space: nowrap;
+		.ranking_swiper {
+			width: 100%;
+			height: 322rpx;
+			margin: auto;
+			
+			.ranking_swiper_item {
+				// height: 322rpx;
+			}
+		}
+
+		.ranking-item {
+			position: relative;
+			width: 262rpx;
+			height: 322rpx;
+			margin: auto;
+			display: inline-block;
+			transform: scale(.85);
+			margin-right: -40rpx;
+			&.cur{
+				transform: scale(1);
+				margin-right: -28rpx;
+				margin-left: 12rpx;
+			}
+			.item-bg {
+				width: 262rpx;
+				height: 322rpx;
+				position: absolute;
+				top: 0;
+				left: 0;
+
+				.img-ranking-l {
+					width: 262rpx;
+					height: 322rpx;
+				}
+			}
+
+			.item-content {
+				// margin-top: -250rpx;
+				position: relative;
+				padding-top: 40rpx;
+				.item-top {
+					position: absolute;
+					top: 0;
+					left: 44rpx;
+					z-index: 2;
+
+					.img-top {
+						width: 54rpx;
+						height: 46rpx;
+					}
+					.level{
+						position: absolute;
+						top: 12rpx;
+						left: 0;
+						font-size: 24rpx;
+						color: #fff;
+						width: 54rpx;
+						text-align: center;
+					}
+					
+				}
+
+				.item-avator {
+					width: 90rpx;
+					height: 90rpx;
+					margin: auto;
+
+					.img-avator {
+						width: 90rpx;
+						height: 90rpx;
+						border-radius: 50%;
+					}
+				}
+
+				.item-desc {
+					font-size: 24rpx;
+					text-align: center;
+					margin-top: 12rpx;
+
+					.title {
+						font-size: 24rpx;
+						color: $themeBlackColor;
+					}
+
+					.task {
+						font-size: 24rpx;
+						color: $themeGreyColor;
+					}
+
+					.dot {
+						font-size: 24rpx;
+						color: $themeGoldColor;
+					}
+
+					.price {
+						font-size: 28rpx;
+						color: $themeGoldColor;
+					}
+				}
+			}
+		}
+	}
+}
